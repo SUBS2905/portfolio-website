@@ -25,19 +25,13 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-                sit amet tellus cras adipiscing enim.
+              Hey there! I&apos;m a final year Computer Science and Engineering student at Vellore Institute of Technology, Bhopal. Programming and video games are my obsessions, and I&apos;m always seeking new ways to level up my skills.
               </p>
               <p className="my-4 font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-                sit amet tellus cras adipiscing enim.
+              When I&apos;m not immersed in lines of code, you&apos;ll likely find me with a cup of tea in hand. There&apos;s something magical about the brew that fuels my creativity and keeps me energized throughout the day.
               </p>
               <p className="font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget
-                sit amet tellus cras adipiscing enim.
+              Join me on this exciting adventure as I navigate the world of technology, conquer coding challenges, and unlock the secrets of immersive gaming experiences. Together, let&apos;s embark on a journey where code meets pixels, and tea fuels innovation. Cheers to innovation and limitless possibilities!
               </p>
             </div>
             <div className="col-span-1"></div>

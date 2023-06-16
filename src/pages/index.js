@@ -30,11 +30,9 @@ export default function Home() {
                 className="text-left"
               />
               <p className="my-4 text-base font-medium">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+              Welcome to my portfolio! I&apos;m thrilled to share my journey as a final year Computer Science and Engineering student with a passion for Web Development. Get ready to explore the captivating world of websites and digital experiences, where creativity meets functionality.
               </p>
+              <p className="my-4 text-base font-medium">So, whether you&apos;re a fellow enthusiast, a potential collaborator, or simply curious about the fascinating world of web development, I invite you to explore my portfolio and discover the possibilities that lie within. Let&apos;s embark on this journey together and create extraordinary digital experiences!</p>
               <div className="flex items-center self-start mt-2">
                 <Link
                   href="/resume.pdf"
