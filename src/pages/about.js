@@ -6,6 +6,7 @@ import React from "react";
 import profilePic from "../../public/images/profile/profile-pic.png";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
+import Certifications from "@/components/Certifications";
 
 const about = () => {
   return (
@@ -45,6 +46,7 @@ const about = () => {
           </div>
           <Skills />
           <Education />
+          <Certifications />
         </Layout>
       </main>
     </>
