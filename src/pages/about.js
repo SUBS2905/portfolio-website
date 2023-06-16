@@ -7,6 +7,7 @@ import profilePic from "../../public/images/profile/profile-pic.png";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Certifications from "@/components/Certifications";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const about = () => {
   return (
@@ -14,6 +15,7 @@ const about = () => {
       <Head>
         <title>Subhransu | About page</title>
       </Head>
+      <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />

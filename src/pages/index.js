@@ -5,13 +5,15 @@ import profilePic from "../../public/images/profile/developer-profile.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio Website</title>
+        <title>Subhransu | Home Page</title>
       </Head>
+      <TransitionEffect />
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-8">
           <div className="flex justify-between items-center w-full">
