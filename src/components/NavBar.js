@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { TwitterIcon, GithubIcon, LinkedInIcon, InstagramIcon } from "./Icons";
+import { TwitterIcon, GithubIcon, LinkedInIcon, InstagramIcon, LeetcodeIcon } from "./Icons";
 import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -43,6 +43,15 @@ const NavBar = () => {
           className="w-6 mr-3"
         >
           <GithubIcon />
+        </motion.a>
+        <motion.a
+          href="https://leetcode.com/SUBS2905/"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mr-3"
+        >
+          <LeetcodeIcon />
         </motion.a>
         <motion.a
           href="https://www.linkedin.com/in/subhransu-majhi/"
