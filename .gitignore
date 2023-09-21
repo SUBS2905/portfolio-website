@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 desktop.ini
+*.vscode/
 
 # debug
 npm-debug.log*
