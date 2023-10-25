@@ -12,12 +12,12 @@ import Link from "next/link";
 
 const FeaturedProject = ({ type, title, summary, image, link, github }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative ">
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark" />
+    <article className="w-full flex flex-col items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-4 py-8 relative lg:p-12 lg:flex-row">
+      <div className="absolute hidden top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark lg:block" />
       <Link
         href={link}
         target="_blank"
-        className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
+        className="cursor-pointer overflow-hidden rounded-lg lg:w-1/2"
       >
         <Image
           src={image}
@@ -25,16 +25,16 @@ const FeaturedProject = ({ type, title, summary, image, link, github }) => {
           className="w-full h-auto hover:scale-110 transition ease-in-out delay-100 duration-200"
         />
       </Link>
-      <div className="w-1/2 flex flex-col items-start justify-between pl-6">
-        <span className="text-primary font-medium text-xl">{type}</span>
+      <div className="flex flex-col items-center justify-between gap-2 lg:pl-6 lg:w-1/2 lg:items-start">
+        <span className="text-primary font-medium text-xl mt-4 lg:mt-0">{type}</span>
         <Link
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2"
         >
-          <h2 className="my-2 w-full text-left text-4xl font-bold ">{title}</h2>
+          <h2 className="my-2 w-full text-left text-2xl font-bold lg:text-4xl">{title}</h2>
         </Link>
-        <p className="my-2 font-medium text-dark ">{summary}</p>
+        <p className="my-2 font-medium text-dark text-center lg:text-left">{summary}</p>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
             <GithubIcon />
@@ -65,7 +65,7 @@ const projects = () => {
             text="Imagination Trumps Knowledge!"
             className="mb-16"
           />
-          <div className="grid grid-cols-12 gap-24">
+          <div className="grid grid-cols-12 gap-6 lg:gap-24">
             <div className="col-span-12">
               <FeaturedProject
                 title="Sukoon"

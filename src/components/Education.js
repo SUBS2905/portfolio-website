@@ -7,7 +7,7 @@ const Detail = ({ degree, time, institute, info }) => {
   return (
     <li
       ref={ref}
-      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between"
+      className="my-8 first:mt-0 last:mb-0 w-3/4 mx-auto flex flex-col items-start justify-between lg:w-[60%]"
     >
       <LiIcon reference={ref} />
       <motion.div
@@ -32,14 +32,14 @@ const Education = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-6xl mb-32 w-full text-center">Education</h2>
+    <div className="my-8 lg:my-64">
+      <h2 className="font-bold text-4xl mb-32 w-full text-center lg:text-6xl">Education</h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-28 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute top-0 w-[4px] h-full bg-dark origin-top lg:left-28"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-28">
+        <ul className="w-full flex flex-col items-start justify-between lg:ml-28">
           <Detail
             degree="Bachelor of Technology"
             time="2020-2024"

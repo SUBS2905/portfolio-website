@@ -42,16 +42,16 @@ const Certifications = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64">
-      <h1 className="font-bold text-6xl mb-32 w-full text-center">
+    <div className="my-32 lg:my-64">
+      <h1 className="font-bold text-4xl mb-32 w-full text-center lg:text-6xl">
         Certifications
       </h1>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-28 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute top-0 w-[4px] h-full bg-dark origin-top lg:left-28"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-28">
+        <ul className="w-full flex flex-col items-start justify-between lg:ml-28">
           <Detail
             title="Security, Compliance, and Identity Fundamentals"
             time="June 2023"

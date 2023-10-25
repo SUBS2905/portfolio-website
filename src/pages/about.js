@@ -19,8 +19,8 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
-          <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-4 flex flex-col items-start justify-start">
+          <div className="grid w-full grid-cols-8 gap-8 lg:gap-16">
+            <div className="col-span-8 flex flex-col items-start justify-start lg:col-span-4 lg:flex-col">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 About Me
               </h2>
@@ -34,8 +34,8 @@ const about = () => {
               Join me on this exciting adventure as I navigate the world of technology, conquer coding challenges, and unlock the secrets of immersive gaming experiences. Together, let&apos;s embark on a journey where code meets pixels, and tea fuels innovation. Cheers to innovation and limitless possibilities!
               </p>
             </div>
-            <div className="col-span-1"></div>
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+            <div className="col-span-8 lg:col-span-1"></div>
+            <div className="col-span-8 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 lg:col-span-3">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
               <Image src={profilePic} alt="" className="w-full rounded-2xl" />
             </div>
